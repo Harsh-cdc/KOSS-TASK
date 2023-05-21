@@ -1,0 +1,5 @@
+for keeping count of number of visitors that visited a particular website, we can  initiate a counter and update it as soon as a request is processed.
+
+In case of single threaded web server where each request is processed one by one, counter would by updated as soon as one request is processed.
+
+where as in case of multi-threaded web server several request are being processed at the same time. in such cases, the counter is to be updated by considering all the processed requests from all the threads.

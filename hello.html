@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="stylesheet" href="/style.css" type="text/css"> -->
+  <title>Hello</title>
+  <style>
+    body {
+    /* background-color: aqua; */
+    background-image: url(/hello_cargo/images/final.jpg);
+  }
+  
+  /* --------------------------------------- */
+  .two-columns {
+    display: flex;
+    flex-direction: row;
+    height: 510px;
+    width: 970px;
+    /* background-color: deeppink; */
+    margin-left: 232px;
+    margin-top: 129px;
+    justify-content: space-between;
+  }
+  
+  .column-1 {
+    width: 75%;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  
+  }
+  
+  .column-2 {
+    width: 25%;
+    background-color: black;
+    margin: 5px;
+    border-radius: 7px;
+    height: 500px;
+  
+  }
+  
+  /* -------------------------------------------------- */
+  .row1 {
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .column-3 {
+    width: 87%;
+    /* background-color: darkred; */
+    margin: 5px;
+    border-radius: 7px;
+  
+  }
+  
+  .column-4 {
+    width: 37%;
+    /* background-color: darkmagenta; */
+    margin: 5px;
+    border-radius: 7px;
+  }
+  
+  /* -------------------------------------------------------- */
+  .row2 {
+    flex-grow: 1;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .column-5 {
+    width: 37%;
+    /* background-color: darkmagenta; */
+    margin: 5px;
+    border-radius: 7px
+  }
+  
+  .column-6 {
+    width: 80%;
+    /* background-color: darkred; */
+    margin: 5px;
+    border-radius: 7px;
+  }
+  
+  /* ------------------------------------------------- */
+  /* Content */
+  .image {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+    float: left;
+    margin: 15px 11px 0px 19px;
+  }
+  
+  .name {
+    text-align: left;
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: 13px;
+  }
+  
+  .headline {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 1);
+    text-align: left;
+    margin-left: 20px;
+  }
+  
+  .content {
+    margin-left: 20px;
+    color: rgba(255, 255, 255, 0.4);
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 4px;
+    font-size: 15px;
+    /* font-stretch: condensed; */
+    /* font-weight: 400; */
+    font-stretch: extra-condensed;
+    font-family: sans-serif;
+  }
+  
+  /* ------------------------------ */
+  .headline1 {
+    color: rgba(255, 255, 255, 1);
+    text-align: left;
+    margin-left: 20px;
+    font-size: 15px;
+    margin-top: 22px;
+  }
+  
+  .content1 {
+    color: rgba(255, 255, 255, 0.4);
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 4px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-stretch: extra-condensed;
+  }
+  </style>
+</head>
+
+<body>
+  <div class="two-columns">
+    <div class="column-1">
+      <div class="row1">
+        <div class="column-3" style="background: hsl(263, 55%, 52%);">
+          <img class="image" src="/hello_cargo/images/image-daniel.jpg">
+          <h4 class="name">
+            <span>Daniel Clifford </span>
+            <br>
+            <span color: rgba(255,255,255,0.4)>
+              Verified Graduate
+            </span>
+          </h4>
+          <p class="headline"><b>I received a job offer mid-course, and the subjects I learned were current, if not more
+            so, in the company I joined. I honestly feel I got every penny’s worth.</b></p>
+
+          <div class="content">
+            "I was an EMT for many years before I joined the bootcamp. I’ve been looking to make a transition and have
+            heard some people who had an amazing experience here. I signed up for the free intro course and found it
+            incredibly fun! I enrolled shortly thereafter. The next 12 weeks was the best - and most grueling - time of
+            my life. Since completing the course, I’ve successfully switched careers, working as a Software Engineer at
+            a VR startup."
+          </div>
+
+        </div>
+        <div class="column-4" style="background: hsl(217, 19%, 35%)">
+          <img class="image" src="/hello_cargo/images/image-jonathan.jpg">
+          <h4 class="name">
+            <span>Jonathan Walters</span>
+            <br>
+            <span color: rgba(255,255,255,0.4)>
+              Verified Graduate
+            </span>
+          </h4>
+          <p class="headline"><b>The team was very supportive and kept me motivated.</b></p>
+          <p class="content">“I started as a total newbie with virtually no coding skills. I now work as a mobile
+            engineer for a big company. This was one of the best investments I’ve made in myself." </p>
+        </div>
+      </div>
+      <!-- --------------------------------------------------- -->
+      <div class="row2">
+        <div class="column-5" style="background-color:dimgrey">
+          <img class="image" src="/hello_cargo/images/image-jeanette.jpg">
+          <h4 class="name">
+            <span>Jeanette Harmon</span>
+            <br>
+            <span color: rgba(255,255,255,0.4)>
+              Verified Graduate
+            </span>
+          </h4>
+          <p class="headline"><b>An overall wonderful and rewarding experience.</b></p>
+          <p class="content">"Thank you for the wonderful experience! I now have a job I really enjoy, and make a good
+            living while doing something I love."</p>
+        </div>
+        <div class="column-6" style="background-color: darkslategrey">
+          <img class="image" src="/hello_cargo/images/image-patrick.jpg">
+          <h4 class="name">
+            <span>Patrick Abrams</span>
+            <br>
+            <span color: rgba(255,255,255,0.4)>
+              Verified Graduate
+            </span>
+          </h4>
+
+          <p class="headline"><b>Awesome teaching support from TAs who did the bootcamp themselves. Getting guidance from
+            them and learning from their experiences was easy.</b></p>
+          <p class="content">“The staff seem genuinely concerned about my progress which I find really refreshing. The
+            program gave me the confidence necessary to be able to go out in the world and present myself as a capable
+            junior developer. The standard is above the rest. You will get the personal attention you need from an
+            incredible community of smart and amazing people."</p>
+        </div>
+      </div>
+    </div>
+    <div class="column-2">
+      <img class="image" src="/hello_cargo/images/image-kira.jpg">
+      <h4 class="name">
+        <span>Patrick Abrams</span>
+        <br>
+        <span color: rgba(255,255,255,0.4)>
+          Verified Graduate
+        </span>
+        <p class="headline1">Such a life-changing experience. Highly recommended!</p>
+            <p class="content1">“Before joining the bootcamp, I’ve never written a line of code. I needed some structure from professionals who can help me learn programming step by step. I was encouraged to enroll by a former student of theirs who can only say wonderful things about the program. The entire curriculum and staff did not disappoint. They were very hands-on and I never had to wait long for assistance. The agile team project, in particular, was outstanding. It took my learning to the next level in a way that no tutorial could ever have. In fact, I’ve often referred to it during interviews as an example of my developent experience. It certainly helped me land a job as a full-stack developer after receiving multiple offers. 100% recommend! ”</p>
+      </h4>
+    </div>
+  </div>
+</body>
+
+</html>
